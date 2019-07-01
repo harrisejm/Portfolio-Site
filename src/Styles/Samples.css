@@ -1,0 +1,283 @@
+div.main {
+  /* border-style: solid;
+  border-color: white; */
+  /* height: 100%; */
+  padding-bottom: 120px;
+  margin-top: -99px;
+  background-image: url("../Assets/img/5.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  width: 100%;
+  z-index: -1;
+}
+div.secondLayer {
+  position: relative;
+  z-index: 0;
+  border-style: solid none none none;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0);
+}
+ 
+p#samples {
+  font-size: 35px;
+  /* color: #00b300; */
+  color:#1a1a1a;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 993px) {
+  div.game {
+    /* border-style: solid;
+    border-color: red; */
+    width: 600px;
+    height: 385px;
+    float: left;
+  }
+  div.description {
+    width: 350px;
+    height: 380px;
+    float: left;
+    margin-bottom: 20px;
+    font-family: AppleGothic;
+    /* background-color: #e6e6e6; */
+    background-color: rgba(0,0,0,0.5);
+    color:#d9d9d9;
+  }
+  div.gameLink {
+    width: 150px;
+    margin-left: 20px;
+  }
+  div.projectLinks {
+    width: 400px;
+    /* border-style: solid; */
+    /* position: relative;
+    bottom: 0px; */
+  }
+  div.gameLink a p {
+    color: #d9d9d9;
+    line-height: 2.3em;
+  }
+  div.moveHawkLogo {
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-width: 2px;
+    margin-right: 30px;
+  }
+  div.gameInfo {
+    /* border-style: solid; */
+    border-radius: 3px;
+    border-color: #00b300;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+    min-width: 600px;
+    min-height: 380px;
+    margin-bottom: 70px;
+    box-shadow:10px 10px 40px black;
+  }
+  p.projectTitle {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arial Black;
+  }
+  .backdrop {
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    background-color: grey;
+    height: 1600px;
+    left: 25%;
+    margin-top: 80px;
+    opacity: .3;
+  }
+}
+@media (max-width: 993px) {
+  div.game {
+    /* border-style: solid;
+    border-color: red; */
+    width: 600px;
+    height: 385px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  div.description {
+    width: 600px;
+    /* height: 100%; */
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -15px;
+    font-family: AppleGothic;
+    background-color: rgba(0,0,0,0.5);
+    color:#d9d9d9;
+  }
+  div.gameLink {
+    float: left;
+    margin-left: 20px;
+  }
+  div.projectLinks {
+  width: 400px;
+  /* border-style: solid; */
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative; */
+  /* bottom: 0px; */
+  }
+  div.projectLinks div.gameLink a p {
+    color: #d9d9d9;
+    margin-top: 8px;
+  }
+  div.moveHawkLogo {
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-width: 2px;
+    margin-right: 30px;
+    margin-top: 6px;
+  }
+  div.gameInfo {
+    /* border-style: solid; */
+    border-color: #00b300;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    min-height: 380px;
+    margin-bottom: 50px;
+    box-shadow:10px 10px 20px black;
+  }
+  p.projectTitle {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arial Black;
+  }
+  .backdrop {
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    min-width: 313px;
+    background-color: grey;
+    height: 2155px;
+    left: 25%;
+    margin-top: 80px;
+    opacity: .5;
+  }
+}
+@media (max-width: 625px) {
+  div.backdrop {
+    position: absolute;
+    z-index: -1;
+    min-width: 313px;
+    background-color: grey;
+    height: 2155px;
+    left: 155px;
+    margin-top: 80px;
+    opacity: .5;
+  }
+}
+
+p.project {
+  margin: 19px;
+  font-size: 15px;
+  line-height: 20px;
+}
+div.portfolioTitle {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  font-family: Arial Black;
+  /* color:#d9d9d9; */
+  color:#1a1a1a;
+  text-align: center;
+  font-size: 60px;
+  line-height: 10%;
+  /* text-decoration: underline; */
+}
+
+div.portfolioTitle p:first-child {
+  text-decoration: underline;
+  /* text-decoration-color: #00b300; */
+  /* text-decoration-color: #d9d9d9; */
+  text-decoration-color:#1a1a1a;
+}
+
+div.gameLink {
+  width: 170px;
+  margin-left: 20px;
+}
+
+div.moveChessLogo {
+  width: 35px;
+  height: 35px;
+  float: left;
+  background-color: black;
+  border-radius: 50px;
+  border-style: solid;
+  border-color:#d9d9d9;
+  border-width: 2px;
+  margin-right: 10px;
+}
+div.moveMineLogo {
+  float: left;
+  border-width: 2px;
+  margin-right: 10px;
+}
+img.hawkImage {
+  width: 50px;
+}
+div.moveHawkLogo {
+  width: 35px;
+  height: 35px;
+  float: left;
+  border-width: 2px;
+  margin-right: 30px;
+}
+
+a#hawksId p {
+  color: #d9d9d9;;
+  line-height: 1.5em;
+}
+
+div.moveGithubLogo {
+  width: 36px;
+  height: 36px;
+  float: left;
+  background-color: #d9d9d9;;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+div.moveGithubLogoHawks {
+  width: 36px;
+  height: 36px;
+  float: left;
+  background-color: #d9d9d9;;
+  border-radius: 50px;
+  margin-right: 30px;
+}
+
+img.chessImage {
+  width: 30px;
+  margin-left: 3px;
+  margin-top: 1px;
+}
+img.githubImage {
+  width: 40px;
+  margin-left: -2px;
+  margin-top: -3px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+

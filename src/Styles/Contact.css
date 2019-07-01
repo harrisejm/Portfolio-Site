@@ -1,0 +1,84 @@
+div.contactTitle {
+  position: relative;
+  top: 100px;
+  width: 500px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial Black;
+  /* color:#d9d9d9; */
+  color:#262626;
+  text-align: center;
+  font-size: 60px;
+  border-style: solid;
+}
+div.contactTitle p {
+  line-height: 0%;
+  margin-top: 47px;
+}
+
+div.contactMain {
+  padding-bottom: 80px;
+  margin-top: -60px;
+  height: 800px;
+  /* top: -21px;
+  position: relative; */
+  background-image: url("../Assets/img/hello.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  width: 100%;
+  z-index: -1;
+}
+.linksContact {
+  /* border-style: solid; */
+  width: 300px;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.email {
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.email img.emailImg {
+  width: 100%
+}
+.linkedIn {
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.linkedIn img.linkedInImg {
+  width: 100%
+}
+.github {
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+}
+.github img.githubImg {
+  width: 100%
+}
+
+.copywrite {
+  text-align: center;
+  margin-top: 30px;
+  font-family: Arial Black;
+  
+  color:#262626;
+}
+
+div div.quote {
+  color: #bfbfbf;
+  position: relative;
+  bottom: -207px;
+  left: 10px;
+  font-size: 14px;
+  font-family: AppleGothic;
+}

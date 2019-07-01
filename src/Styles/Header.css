@@ -1,0 +1,35 @@
+div.mainHeader {
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  height: 55px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  font-family: Arial black;
+}
+div.navbar {
+  width: 600px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.navbar div {
+  text-align: center;
+  margin-top: -9px;
+  color: #e6e6e6;
+  float: left;
+  width: 25%;
+}
+div.navbar div p {
+  width: 140px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 11px;
+  /* font-size: 16px; */
+}
+div.navbar div p:hover {
+  border-style: solid;
+  border-width: 1px;
+}
